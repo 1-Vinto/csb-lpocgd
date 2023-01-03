@@ -1,0 +1,140 @@
+html {
+  background-color: #01011d;
+  color: #ffffff;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif; /*fonte da página*/
+  font-size: 1.6rem;
+}
+footer,
+section {
+  padding: 5rem;
+  max-width: 96rem;
+  margin: 0 auto;
+}
+footer {
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.inspecionar {
+  border: 5px solid red; /*tamanho e cor da borda*/
+}
+.itens-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  padding: 2rem 6rem; /*serve para alterar as distâncias dentro da borda*/
+  /*margin: 5rem; serve para alterar as distâncias fora da borda*/
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  font-size: 1.8rem;
+}
+.main {
+  margin-bottom: 5rem;
+}
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 24rem;
+  height: 24rem;
+
+  margin-right: 10rem;
+}
+.avatar_sobre {
+  border-radius: 20%;
+  width: 28rem;
+  height: 28rem;
+
+  margin-right: 10rem;
+}
+.pai {
+  display: none;
+  left: inherit;
+  position: inherit;
+}
+.pai:hover {
+  display: block;
+}
+
+.main-title {
+  font-size: 4rem;
+}
+.main-description {
+  margin: 4rem 0;
+}
+.button {
+  border-radius: 0.2rem;
+  background-color: #003289;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.about {
+  background-color: #0c041c;
+}
+.project {
+  margin: 4rem 0;
+}
+.project-image {
+  width: 18rem;
+  height: 18rem;
+  margin-right: 2.5rem;
+  border-radius: 0.6rem;
+}
+.project-title {
+  font-size: 3rem;
+}
+.icons {
+  width: 3rem;
+  height: 3rem;
+}
+.footer-social {
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width: 1200px) {
+  .itens-center {
+    flex-direction: column;
+  }
+  footer,
+  section {
+    padding: 5rem;
+  }
+  .main {
+    margin-bottom: 2rem;
+  }
+  .main-title {
+    font-size: 3rem;
+  }
+  .project-image {
+    width: 38rem;
+    height: auto;
+  }
+  .nav-links {
+    justify-content: center;
+  }
+  .avatar {
+    width: 18rem;
+    height: 18rem;
+
+    margin-right: 0;
+  }
+}
